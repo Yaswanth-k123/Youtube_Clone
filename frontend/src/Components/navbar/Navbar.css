@@ -1,0 +1,64 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   /* Navbar container */
+   nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 50px;
+    margin-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 10px;
+    
+   }
+   
+   /* Logo */
+   /* Title */
+   nav h2 {
+    font-size: 24px;
+    color: #333;
+   }
+   
+   /* Search input */
+   nav input[type="text"] {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   }
+   
+   /* Features title */
+   nav h2:last-child {
+    font-size: 18px;
+    color: #6c757d;
+   }
+   
+   /* Responsive design */
+   @media (max-width: 768px) {
+    nav {
+       flex-direction: column;
+    }
+   
+    nav h2, nav input[type="text"] {
+       margin-bottom: 10px;
+    }
+   }
+   .search {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      border:1px solid black;
+   }
+   .search input {
+      width: 450px;
+      border:none;
+   }
